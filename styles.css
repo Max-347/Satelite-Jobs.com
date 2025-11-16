@@ -600,7 +600,7 @@ textarea.form-control {
 
 .submit-btn {
     padding: 1rem 2rem;
-    background: linear-gradient(45deg, #4285f4, #34a853);
+    background-color: #2563EB;
     color: white;
     border: none;
     border-radius: 50px;

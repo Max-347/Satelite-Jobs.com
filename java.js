@@ -148,7 +148,7 @@ let filteredJobs = [...jobs];
 let currentFilter = 'todos';
 
 // Número de WhatsApp del administrador
-const ADMIN_WHATSAPP = "59178945612";
+const ADMIN_WHATSAPP = "59175656420";
 
 // ===== INICIALIZACIÓN =====
 document.addEventListener('DOMContentLoaded', function() {
