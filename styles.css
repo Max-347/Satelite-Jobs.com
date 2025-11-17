@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: #2c3e50;
+    background: #1E293B;
     min-height: 100vh;
 }
 
@@ -38,42 +38,44 @@ html {
 .logo {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
     font-size: 1.5rem;
     font-weight: bold;
-    color: #4285f4;
+    color: #111111;
 }
 
 .logo-icon {
     width: 60px;
     height: 60px;
-    background: linear-gradient(45deg, #4285f4, #34a853);
+    background: transparent;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: rgba(255, 255, 255, 0);
     font-weight: bold;
     font-size: 1.5rem;
-    box-shadow: 0 4px 15px rgba(66, 133, 244, 0.3);
-    background-image: url("");
+    box-shadow: 0 4px 15px rgba(253, 253, 253, 0.033);
+    
 }
 
 .nav-menu {
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 25px;
 }
 
 .nav-menu a {
+    padding: 10px 18px;
+    border-radius: 10px;
     text-decoration: none;
-    color: #333;
+    color: #1F2937;
     font-weight: 500;
     transition: color 0.3s;
 }
 
 .nav-menu a:hover {
-    color: #4285f4;
+    color: #2563EB;
 }
 
 /* ===== HERO SECTION ===== */
@@ -132,7 +134,7 @@ html {
 
 .search-btn {
     padding: 1rem 2rem;
-    background: linear-gradient(45deg, #4285f4, #34a853);
+    background-color: #2563EB;
     color: white;
     border: none;
     border-radius: 50px;
@@ -226,7 +228,7 @@ html {
 .job-photo-placeholder {
     width: 80px;
     height: 80px;
-    background: linear-gradient(45deg, #4285f4, #34a853);
+    background-color: #2563EB;
     border-radius: 15px;
     display: flex;
     align-items: center;
@@ -306,7 +308,7 @@ html {
 }
 
 .apply-btn {
-    background: linear-gradient(45deg, #4285f4, #34a853);
+    background-color: #2563EB;
     color: white;
     border: none;
     padding: 0.8rem 2rem;
@@ -406,7 +408,7 @@ html {
 }
 
 .featured-badge {
-    background: linear-gradient(45deg, #4285f4, #34a853);
+    background-color: #2563EB;
 }
 
 .pricing-card h3 {
@@ -444,7 +446,7 @@ html {
 .pricing-btn {
     width: 100%;
     padding: 1rem;
-    background: linear-gradient(45deg, #4285f4, #34a853);
+    background-color: #2563EB;
     color: white;
     border: none;
     border-radius: 50px;
@@ -460,7 +462,7 @@ html {
 }
 
 .featured-btn {
-    background: linear-gradient(45deg, #34a853, #4285f4);
+    background-color: #2563EB;
 }
 
 .pricing-note {
@@ -636,7 +638,7 @@ textarea.form-control {
 
 /* ===== FOOTER ===== */
 .footer {
-    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    background: linear-gradient(135deg, #2c3e50 100%);
     color: white;
     padding: 3rem 2rem 1rem;
     margin-top: 3rem;
@@ -801,7 +803,7 @@ textarea.form-control {
 }
 
 .btn-submit {
-    background: linear-gradient(45deg, #4285f4, #34a853);
+    background-color: #2563EB;
     color: white;
     border: none;
     padding: 0.8rem 2rem;
