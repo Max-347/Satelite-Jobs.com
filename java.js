@@ -7,27 +7,27 @@ const jobs = [
         empresa: "TechCorp Bolivia",
         tipo: "Tiempo completo",
         ubicacion: "Mercado 4 de Abril",
-        salario: "Bs. 6,500",
+        salario: "Bs. 3,230",
         descripcion: "Buscamos desarrollador frontend con experiencia en React, JavaScript y CSS. Trabajo en equipo dinámico con proyectos internacionales.",
         fecha: "2025-10-15",
         foto: "fotos/computadora.jpeg",
         requisitos: ["React", "JavaScript", "CSS", "Git"],
         contacto: "rrhh@techcorp.com",
-        whatsapp: "59178945612"
+        whatsapp: "59163389158"
     },
     {
         id: 2,
         titulo: "Repartidor de Delivery",
-        empresa: "Food Express",
+        empresa: "Pollos Rocky",
         tipo: "Medio tiempo",
         ubicacion: "Satelite - Centro",
-        salario: "Bs. 2,800 + propinas",
+        salario: "Bs. 2,000 + propinas",
         descripcion: "Se busca repartidor con moto propia para delivery de comida. Horarios flexibles, ambiente joven y dinámico.",
         fecha: "2025-09-14",
         foto:"fotos/repartidor.jpg",
         requisitos: ["Moto propia", "Licencia de conducir", "Smartphone"],
         contacto: "delivery@foodexpress.com",
-        whatsapp: "59179856423"
+        whatsapp: "59175586266"
     },
     {
         id: 3,
@@ -35,13 +35,13 @@ const jobs = [
         empresa: "Creative Studio",
         tipo: "Tiempo completo",
         ubicacion: "Satelite - Las Brisas",
-        salario: "Bs. 180/hora",
+        salario: "Bs. 4/hora",
         descripcion: "Diseñador gráfico para proyectos de marketing digital, branding y diseño web. Portfolio requerido.",
         fecha: "2025-10-13",
         foto: "fotos/diseño grafico.jpg",
         requisitos: ["Adobe Creative Suite", "Portfolio", "Experiencia 2+ años"],
         contacto: "info@creativestudio.com",
-        whatsapp: "59172369841"
+        whatsapp: "59174189173"
     },
     {
         id: 4,
@@ -49,13 +49,13 @@ const jobs = [
         empresa: "Fashion Point",
         tipo: "Tiempo completo",
         ubicacion: "Satelite- Mega Center",
-        salario: "Bs. 3,200 + comisiones",
+        salario: "Bs. 2,600 + comisiones",
         descripcion: "Vendedor/a para tienda de ropa. Experiencia en atención al cliente y ventas. Disponibilidad fines de semana.",
         fecha: "2025-09-12",
         foto: "fotos/tiemda d ropa.jpg",
         requisitos: ["Experiencia en ventas", "Atención al cliente", "Disponibilidad fines de semana"],
         contacto: "ventas@fashionpoint.com",
-        whatsapp: "59174125836"
+        whatsapp: "59162691310"
     },
     {
         id: 5,
@@ -64,12 +64,12 @@ const jobs = [
         tipo: "Tiempo completo",
         ubicacion: "Satelite-Banco Sol",
         salario: "Bs. 4,500",
-        descripcion: "Contador para manejo de libros contables, declaraciones de impuestos y reportes financieros.",
+        descripcion: "BancoSol, busca contratar dos contadores / analistas contables para su equipo de finanzas.",
         fecha: "2025-09-11",
         foto: "fotos/contaduria.jpg",
-        requisitos: ["Título en Contaduría", "Conocimiento tributario", "Excel avanzado"],
+        requisitos: ["Título universitario en Contbilidad", "Conocimiento tributario", " Dominio de Excel avanzado"],
         contacto: "contabilidad@consultoraabc.com",
-        whatsapp: "59175892347"
+        whatsapp: "59177325757"
     },
     {
         id: 6,
@@ -77,27 +77,27 @@ const jobs = [
         empresa: "Pollos Zelaya",
         tipo: "Tiempo completo",
         ubicacion: "Satelite Norte",
-        salario: "Bs. 5,800",
+        salario: "Bs. 2,750",
         descripcion: "Cajera con experiencia, experiencia en manejo de caja y atencion al cliente, disponible para trabajar en horarios rotativos y una buena presencia y habilidad en trabajar en equipo.",
         fecha: "2025-11-07",
         foto: "fotos/pollozelaya.jpg",
         requisitos: ["Amabildad", "Buena presencia"],
-        contacto: "marketing@digitalagency.com",
-        whatsapp: "59176543298"
+        contacto: "PollosZelaya@gmail.com",
+        whatsapp: "59174653361"
     },
     {
         id: 7,
         titulo: "Mesero",
         empresa: "Pampeño",
-        tipo: "Turno Noche",
+        tipo: "Tiempo completo",
         ubicacion: "Satelite-Pentaguazu",
-        salario: "Bs. 2,900",
-        descripcion: "Se requiere un mesero con experiencia al cliente y atencion en la mesa, que tenga buena presencia y las ganas de trabajar.",
+        salario: "Bs. 2,500",
+        descripcion: "Buscamos un mesero/a responsable con buena atención al cliente y  para trabajar en nuestro negocio.",
         fecha: "2025-11-05",
         foto:"fotos/pampeño.jpg",
-        requisitos: ["Experiencia ", "Buena presencia"],
-        contacto: "recepcion@hotelplaza.com",
-        whatsapp: "59177234856"
+        requisitos: ["Noce necesita experiencia", "Buena presencia"],
+        contacto: "pampeño@Sat-N.com",
+        whatsapp: "59175555327"
     },
     {
         id: 8,
@@ -105,27 +105,27 @@ const jobs = [
         empresa: "WebSolutions",
         tipo: "Medio tiempo",
         ubicacion: "Satelite Norte",
-        salario: "Bs. 7,200",
+        salario: "Bs. 4,320",
         descripcion: "Programador PHP para desarrollo de sistemas web y APIs. Experiencia con Laravel y bases de datos MySQL.",
         fecha: "2025-10-08",
         foto: "fotos/php.jpg",
-        requisitos: ["PHP", "Laravel", "MySQL", "Git", "3+ años experiencia"],
+        requisitos: ["PHP", "Laravel", "MySQL", "Git", "1+ años experiencia"],
         contacto: "dev@websolutions.com",
-        whatsapp: "59178456123"
+        whatsapp: "59174466075"
     },
     {
     id: 9,
         titulo: "Cocinero",
-        empresa: "",
+        empresa: "Local Doña Maria",
         tipo: "Medio tiempo",
         ubicacion: "Satelite- Mercado",
-        salario: "Bs. 2,200",
+        salario: "Bs. 3,000",
         descripcion: " Se requiere cocinero con experiencia que sepa freir tenga buen manejo en parilla y buen ritmo.",
         fecha: "2025-10-08",
         foto: "fotos/cocina.jpg",
         requisitos: ["Experiencia min 1 año", "Preparacion de platos tipicos"],
         contacto: "dev@websolutions.com",
-        whatsapp: "59178456123"
+        whatsapp: "59175160995"
     },
     {
     id: 10,
@@ -133,13 +133,13 @@ const jobs = [
         empresa: "Shady Tore",
         tipo: "Medio tiempo",
         ubicacion: "Satelite Norte",
-        salario: "Bs. 7,200",
+        salario: "Bs. 2,500",
         descripcion: " Se requiere vendedor de ropa que tenga buena presencia y buen ojo para la ropa de moda .",
         fecha: "2025-10-20",
         foto: "fotos/shadytr.jpg",
         requisitos: ["Experiencia en venta y conocimiento de moda urbana"],
         contacto: "dev@websolutions.com",
-        whatsapp: "59178456123"
+        whatsapp: "59175667833"
     },
 ];   
 
