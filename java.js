@@ -289,14 +289,14 @@ function formatDate(dateString) {
 function openWhatsApp(phoneNumber, jobTitle, company) {
     const message = `Hola! 👋 Vi la oferta de trabajo de *${jobTitle}* en ${company} y me interesa mucho. ¿Podrían darme más información? Estoy disponible para una entrevista. ¡Gracias!`;
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-    window.open(whatsappURL, '_blank');
+    window.open(whatsappURL, '_self');
 }
 
 // ===== CONTACTAR ADMIN DESDE PRECIOS =====
 function contactAdmin(plan) {
     const message = `Hola! 👋 Estoy interesado en contratar el *${plan}* para publicar empleos en Satélite Jobs. ¿Podrían darme más información sobre el proceso? ¡Gracias!`;
     const whatsappURL = `https://wa.me/${ADMIN_WHATSAPP}?text=${encodeURIComponent(message)}`;
-    window.open(whatsappURL, '_blank');
+    window.open(whatsappURL, '_self');
 }
 
 // ===== INICIALIZAR FORMULARIO DE CONTACTO =====
@@ -331,7 +331,7 @@ ${formData.message}
         
         // Abrir WhatsApp con el mensaje
         const whatsappURL = `https://wa.me/${ADMIN_WHATSAPP}?text=${encodeURIComponent(whatsappMessage)}`;
-        window.open(whatsappURL, '_blank');
+        window.open(whatsappURL, '_self');
         
         // Mostrar mensaje de éxito
         formMessage.className = 'success';
